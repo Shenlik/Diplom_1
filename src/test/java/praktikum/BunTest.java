@@ -9,7 +9,7 @@ import static praktikum.helper.FoodFactory.PRICE_DELTA;
 public class BunTest {
 
     @Test
-    public void rename() {
+    public void shouldCreateBunSuccessfully() {
         var bun = new Bun(
                 "testName",
                 12F

@@ -9,7 +9,7 @@ import static praktikum.helper.FoodFactory.PRICE_DELTA;
 public class IngredientTest {
 
     @Test
-    public void rename() {
+    public void shouldCreateIngredientSuccessfully() {
         var ingredient = new Ingredient(
                 IngredientType.SAUCE,
                 "testName",
